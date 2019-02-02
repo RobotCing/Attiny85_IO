@@ -13,7 +13,7 @@ http://robotcing.wz.sk
 
 #### Description
 
-Controls motor movement
+Controls motor movement.
 
 #### Syntax
 
@@ -29,20 +29,132 @@ mode:"digital" or "analog"
 
 
 
-
 ### Cing.ReadButtonExternal()
+
 [Sensor]
+
 
 #### Description
 
-Reads the value from external button, either 1 or 0.
+Reads the value from external button, either 0 or 1.
+
 
 #### Syntax
 
 Cing.ReadButtonExternal()
 
+
 #### Returns
 1 or 0
+
+
+
+### Cing.ReadPotentiometerExternal()
+[Sensor]
+
+#### Description
+
+Reads the value from external potentiometer.
+
+#### Syntax
+
+Cing.ReadPotentiometerExternal()
+
+#### Returns
+from 0 to 100
+
+
+
+### Cing.ReadLightSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from light sensor.
+
+
+#### Syntax
+
+Cing.ReadLightSensor(sensor,mode)
+
+
+#### Parameters
+
+sensor: 1 or 2 used for selection of sensor
+
+mode:"digital" or "analog"
+
+
+#### Returns
+
+from 0 to 100 in analog mode and either 0 or 1 in digital mode.
+
+
+
+### Cing.ReadShineSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external shine sensor.
+
+
+#### Syntax
+
+Cing.ReadShineSensor()
+
+
+#### Returns
+
+from 0 to 100
+
+
+
+### Cing.ReadTempSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external temperature sensor.
+
+
+#### Syntax
+
+Cing.ReadTempSensor()
+
+
+#### Returns
+
+Temperature in °C  from -55°C to +125°C.
+
+
+
+## In progress
+
+### Cing.UltrasonicSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external ultrasonic sensor.
+
+
+#### Syntax
+
+Cing.UltrasonicSensor()
+
+
+#### Returns
+
+Distance in mm from 0 to 400mm.
 
 
 
