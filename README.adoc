@@ -1,11 +1,52 @@
-= Attiny85_IO Library for robot Cing =
+# Attiny85_IO Library for robot Cing #
 
 This library allows robot Cing to be programmed easily.
 
 For more information about this library please visit us at
 http://robotcing.wz.sk
 
-== License ==
+
+## Attiny Libraries Functions
+
+### Cing.RunMotor()
+[Motor]
+
+#### Description
+
+Controls motor movement
+
+#### Syntax
+
+Cing.RunMotor(motor,state,mode)
+
+#### Parameters
+
+motor: "A", "B", "AB"
+
+state: 0 or 1 if digital mode is used and 0 to 100 if analog mode is used
+
+mode:"digital" or "analog"
+
+
+
+
+### Cing.ReadButtonExternal()
+[Sensor]
+
+#### Description
+
+Reads the value from external button, either 1 or 0.
+
+#### Syntax
+
+Cing.ReadButtonExternal()
+
+#### Returns
+1 or 0
+
+
+
+## License ##
 
 Copyright © 2019 RobotCing Team. All right reserved.
 
