@@ -5,6 +5,7 @@ This library allows robot Cing to be programmed easily.
 For more information about this library please visit us at
 http://robotcing.wz.sk
 
+---
 
 ## Attiny Libraries Functions
 
@@ -27,7 +28,7 @@ state: 0 or 1 if digital mode is used and 0 to 100 if analog mode is used
 
 mode:"digital" or "analog"
 
-
+---
 
 ### Cing.ReadButtonExternal()
 
@@ -47,7 +48,7 @@ Cing.ReadButtonExternal()
 #### Returns
 1 or 0
 
-
+---
 
 ### Cing.ReadPotentiometerExternal()
 [Sensor]
@@ -63,7 +64,7 @@ Cing.ReadPotentiometerExternal()
 #### Returns
 from 0 to 100
 
-
+---
 
 ### Cing.ReadLightSensor()
 
@@ -91,7 +92,7 @@ mode:"digital" or "analog"
 
 from 0 to 100 in analog mode and either 0 or 1 in digital mode.
 
-
+---
 
 ### Cing.ReadShineSensor()
 
@@ -112,7 +113,7 @@ Cing.ReadShineSensor()
 
 from 0 to 100
 
-
+---
 
 ### Cing.ReadTempSensor()
 
@@ -133,7 +134,7 @@ Cing.ReadTempSensor()
 
 Temperature in °C  from -55°C to +125°C.
 
-
+---
 
 ## In progress
 
@@ -156,7 +157,7 @@ Cing.UltrasonicSensor()
 
 Distance in mm from 0 to 400mm.
 
-
+---
 
 ## License ##
 
