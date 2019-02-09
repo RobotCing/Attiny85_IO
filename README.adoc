@@ -18,7 +18,7 @@ Controls motor movement.
 
 #### Syntax
 
-Cing.RunMotor(motor,state,mode)
+`Cing.RunMotor(motor,state,mode)`
 
 #### Parameters
 
