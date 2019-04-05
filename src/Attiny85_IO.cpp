@@ -142,6 +142,7 @@ int Cing::ReadLightSensor(int sensor,String mode)
 int Cing::ReadUltrasonicSensor()
   {
     #define UltrasonicSensor 2
+    pinMode(UltrasonicSensor,INPUT);
     return digitalRead(UltrasonicSensor);
   }
 //--------------------------------------------
